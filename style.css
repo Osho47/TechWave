@@ -66,12 +66,35 @@
    );
 
 }
-.sec-2 {
+.sec-01 {
     background-image: url(assets/hero-bg.png);
-    width: 1600px;
-    height: 760px;
+    width: 100%;
+    height: 730px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-
+    padding-top: 100px;
+    background-size: 100%;
+    background-color:#1A0B2E;
+    align-items: center;
+    
+}
+.microphone {
+    position: absolute;
+    height: 15%;
+    width: 5%;
+    /* top: 50%; */
+    /* right: 50%; */
+    left: 48%;
+}
+.circle {
+     width="20%" 
+     height="35%" 
+     position: absolute;
+     /* padding-top :50px; */
+     /* top: 30px;
+     left: 40%; */
+}
+.middle {
+    padding-top:2px;
 }
