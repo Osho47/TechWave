@@ -88,13 +88,18 @@
     left: 48%;
 }
 .circle {
-     width="20%" 
-     height="35%" 
-     position: absolute;
+     /* width="20%"  */
+     /* height="35%"  */
+     /* position: absolute; */
      /* padding-top :50px; */
      /* top: 30px;
      left: 40%; */
+     width: 350px;
+     height: 350px;
 }
 .middle {
-    padding-top:2px;
+    /* padding-top: -20px; */
+    /* padding-bottom: 70px; */
+    display: flex;
+    justify-content: center;
 }
