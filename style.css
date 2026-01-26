@@ -67,6 +67,11 @@
    );
 
 }
+
+
+/* section 1 */
+
+
 .sec-01 {
     background-image: url(assets/hero-bg.png);
     width: 100%;
@@ -125,6 +130,11 @@
         #f7e93f 85%
     );
 }
+
+
+/* section 2 */
+
+
 .sec-02 {
     height: 646px;
     width: 100%;
@@ -173,7 +183,12 @@
     color: white;
     font-size: 16px;
     opacity: 0.8;
-}
+}  
+
+
+/* section 3 */
+
+
 .sec-03 {
     height: 1121px;
     padding-top: 100px;
@@ -225,7 +240,11 @@
     padding: 40px;
     gap: 16px;
 }
+
+
 /* section-4 */
+
+
 .sec-04 {
     background-color: #1A0B2E;
     display: flex;
@@ -234,17 +253,17 @@
     padding-top: 70px;
     height: 1276px; 
 }
-.vid-card {
-    height: 425px;
-    width: 370px;
-    background-color: rgba(53, 17, 101, 0.4);
-    border-radius: 24px;
-}
 .videos {
     padding-top: 60px;
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+.vid-card {
+    height: 425px;
+    width: 370px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 24px;
 }
 .yt-links {
     border-radius: 24px 24px 0px 0px;
@@ -261,4 +280,22 @@
     gap: 7px;
     color: #00FF88;
     font-size: 18px;
+}
+.host {
+    background-color: rgba(53, 17, 101, 0.4);
+    height: 280px;
+    width: 77%;
+    border-radius: 40px;
+}
+.host-h {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+.all-links {
+    padding: 1.4px;
+    border: 1px solid rgba(83, 60, 114, 1);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
 }
